@@ -60,7 +60,8 @@
 		if(text!=""){
 			var gap = 6;
 			var fontSize = 80;
-			textctx.font=fontSize+"px Verdana";
+			// textctx.font=fontSize+"px Verdana";
+			textctx.font=fontSize+"px Heiti SC";
 			textctx.fillStyle = "#ffffff";
 			var textWidth = textctx.measureText(text).width;
 			var textHeight = fontSize;
